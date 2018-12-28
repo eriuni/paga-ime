@@ -80,6 +80,7 @@ body {
 
 .paga {
     text-align: center;
+    margin: 3rem;
 }
 
 .paga p {
@@ -87,3 +88,35 @@ body {
     font-weight: bold;
 }
 
+.paga-vendos {
+    width: 20rem;
+    height: 3rem;
+    padding: 10px;
+    margin: 1.5rem;
+    border: 2px solid #000;
+    border-radius: 15px;
+    transition: width cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.paga-vendos:focus {
+    outline: none;
+    transform: scaleX(1.1);
+}
+
+.buton {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: grey;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin: 1.5rem;
+
+    cursor: pointer;
+}
+
+.buton:hover {
+    background-color: rgba(15, 13, 13, 0.63);
+}
