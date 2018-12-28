@@ -20,13 +20,18 @@
         </header>
 
         <main class="main">
-            <p>Ju lutem, vendosni pagen:<input id="userinput" type="number" placeholder=""> Leke</p>
-            <input type="radio" id="pagaN" name="paga" checked>
-            <label for="pagaN">paga neto</label>
-            <input type="radio" id="pagaB" name="paga">
-            <label for="pagaB">paga bruto</label>
-            <button id="enter">Llogarit</button><br>
-            <br>
+            <div class="paga">
+                <p>Ju lutem, vendosni pagen: </p>
+                <input id="userinput" type="number" placeholder="">
+                <div class="paga-lloji">                    
+                    <input type="radio" id="pagaN" name="paga" checked>
+                    <label for="pagaN">paga neto</label>
+                    <input type="radio" id="pagaB" name="paga">
+                    <label for="pagaB">paga bruto</label>
+                </div>
+                <button id="enter">Llogarit</button><br>
+            </div>
+
             <p id="pagaNeto">Paga neto eshte: <strong id="pagaNn"></strong> </p>
             <p id="pagaBruto">Paga bruto eshte: <strong id="pagaBb"></strong> </p>
             <p id="pagaBruto">TAP jane: <strong id="tap"></strong> </p>
