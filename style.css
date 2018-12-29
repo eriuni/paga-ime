@@ -51,14 +51,15 @@ body {
 }
 
 
+
 .title {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 4rem;
     font-weight: 900;
-    text-shadow: 2px 4px 5px #000;
+    text-shadow: 4px 6px 5px #000;
     letter-spacing: 10px;
-    color: #a72626;
+    color: #eeeeee;
     transition: all 0.5s;
     
 }
@@ -74,13 +75,18 @@ body {
 }
 
 .main {
+    width: 90%;
+    color: #393e46;
     margin: 2rem;
     font-size: 2rem;
 }
 
 .paga {
+    
     text-align: center;
-    margin: 3rem;
+    margin: .1rem auto;
+    border-bottom: 2px solid #28e916;
+
 }
 
 .paga p {
@@ -103,11 +109,14 @@ body {
     transform: scaleX(1.1);
 }
 
+
 .buton {
     font-size: 1.8rem;
+    font-weight: 700;
     text-decoration: none;
-    color: #fff;
-    background-color: grey;
+    letter-spacing: 1.4px;
+    color: #393e46;
+    background-color: #eeeeee;
     border: 2px solid rgb(0, 0, 0);
     outline: none;
     padding: 10px 10px;
@@ -115,8 +124,40 @@ body {
     margin: 1.5rem;
 
     cursor: pointer;
+
+    
 }
 
 .buton:hover {
-    background-color: rgba(15, 13, 13, 0.63);
+    background-color: #00acb570;
+}
+
+.vlera-paga {
+    width: 100%;
+    padding: 1rem;
+    
+    border-bottom: 2px solid #28e916;
+}
+
+.tap {
+    padding: 1rem;
+    border-bottom: 2px solid #28e916;
+}
+
+.sig-punemarresi {
+    padding: 1rem;
+    border-bottom: 2px solid #28e916;
+}
+
+.sig-punedhenesi {
+    padding: 1rem;
+}
+
+.footer {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-top: 1px solid #28e916;
+    text-align: center;
+
 }
