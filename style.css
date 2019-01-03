@@ -22,12 +22,13 @@ body {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 80%);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 82vh;
+    height: cover;
+    
 
 }
 
 .container {
-    margin: 8rem auto;
+    margin: 5rem auto;
     width: 50%;
     
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
@@ -96,7 +97,7 @@ body {
 
 .paga-vendos {
     width: 20rem;
-    height: 3rem;
+    height: 4rem;
     padding: 10px;
     margin: 1.5rem;
     border: 2px solid #000;
@@ -113,6 +114,7 @@ body {
 .buton {
     font-size: 1.8rem;
     font-weight: 700;
+    text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1.4px;
     color: #393e46;
@@ -135,6 +137,8 @@ body {
 .vlera-paga {
     width: 100%;
     padding: 1rem;
+    text-align: right;
+    padding-right: 35%;
     
     border-bottom: 2px solid #28e916;
 }
@@ -142,15 +146,21 @@ body {
 .tap {
     padding: 1rem;
     border-bottom: 2px solid #28e916;
+    text-align: right;
+    padding-right: 35%;
 }
 
 .sig-punemarresi {
     padding: 1rem;
     border-bottom: 2px solid #28e916;
+    text-align: right;
+    padding-right: 35%;
 }
 
 .sig-punedhenesi {
     padding: 1rem;
+    text-align: right;
+    padding-right: 35%;
 }
 
 .footer {
